@@ -5,8 +5,8 @@
  
 
 
-    <footer class="center767">
-        <div class="container" id="pdp">
+    <footer>
+        <div class="footer" id="pdp">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <h1 class="navbar-brand">
@@ -28,13 +28,6 @@
             </div>
         </div>
 </footer>
-  
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/tm-scripts.js"></script>
-<!-- </script> -->
-  
 
 </body>
 </html>
