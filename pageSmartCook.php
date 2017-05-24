@@ -2,7 +2,7 @@
     <?php include("entete.php"); ?>
 
 
-    page starter
+    page smartcook
 
 <?php 
 // On récupère le contenu de la table des recettes
