@@ -1,0 +1,42 @@
+
+.container-fluid {
+	background: black;
+	color: grey;
+	height: 7%;
+	text-align: center;
+	font-size: 6em
+
+}
+
+#nbconv {
+	background: #FFE9E9;
+	font-size: 5em;
+		color: grey;
+		list-style: none;
+		display: inline-flex;
+		text-align: center;
+		border-radius: 15px;
+		margin: 1% ;
+		position: inherit;
+
+
+	}
+
+#auj {
+	text-align: center;
+
+}
+
+#inlineSpan {
+
+	align-self: center;
+}
+
+.encuisinebutton {
+	display: inline-flex;
+	border-radius: 15px;
+	margin-left:  150px;
+
+}
+
+
