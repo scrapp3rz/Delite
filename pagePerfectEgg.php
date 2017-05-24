@@ -1,4 +1,4 @@
-<?php include ("entete.php");?>
+<?php include ("statics/entete.php");?>
 
 
 
@@ -6,4 +6,4 @@
 
 
 
-<?php include("pieddepage.php"); ?>
+<?php include("statics/pieddepage.php"); ?>

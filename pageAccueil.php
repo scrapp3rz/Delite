@@ -1,4 +1,4 @@
-<?php include ("entete.php");?>
+<?php include ("statics/entete.php");?>
 
 
    <h1><strong>Delite</strong></h1>
@@ -86,4 +86,4 @@
 
 
 
-<?php include("pieddepage.php"); ?>
+<?php include("statics/pieddepage.php"); ?>

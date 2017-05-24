@@ -5,11 +5,11 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="bootstrap.min.css" rel="stylesheet"> 
-     <link href="style.css" rel="stylesheet">
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
+     <link href="assets/css/style.css" rel="stylesheet">
     </head>
     <body>
-   <?php  include("entete.php"); ?> 
+   <?php  include("statics/entete.php"); ?> 
  <div class="slogan">
    
  <h1>La cuisine pour tous</h1>
@@ -34,4 +34,4 @@ Pour cuisiner, cliquez ici
 
 
 
-<?php include("pieddepage.php"); ?>
+<?php include("statics/pieddepage.php"); ?>

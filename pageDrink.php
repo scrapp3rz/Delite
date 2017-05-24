@@ -1,5 +1,5 @@
 
-    <?php include("entete.php"); ?>
+    <?php include("statics/entete.php"); ?>
 
 
     page drink
@@ -50,5 +50,5 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 
 
     
-<?php include("pieddepage.php"); ?>
+<?php include("statics/pieddepage.php"); ?>
 
