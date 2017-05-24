@@ -8,7 +8,7 @@
        <link rel="stylesheet" type="text/css" href="bootstrap.min.css"> 
         
     </head>
-    <div class="container-fluid" >
+    <div class="header " >
     	<p id="titresite">Delite</p>
     </div>
 

@@ -10,9 +10,11 @@
     </head>
     <body>
    <?php  include("entete.php"); ?> 
- <h1>Cuisinez sur mesure</h1>
+ <div class="slogan">
+   
+ <h1>La cuisine pour tous</h1>
 
- <h2></h2>
+ </div>
 
 
 
