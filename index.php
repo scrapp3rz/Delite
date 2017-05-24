@@ -9,7 +9,7 @@
      <link href="style.css" rel="stylesheet">
     </head>
     <body>
-   <?php //  include("entete.php"); ?> 
+   <?php // include("entete.php"); ?> 
  <h1>DeLight</h1>
 
  <h2>Cuisinez sur mesure</h2>
