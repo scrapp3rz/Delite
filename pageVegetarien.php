@@ -1,5 +1,5 @@
 
-    <?php include("statics/entete.php"); ?>
+    <?php include("entete.php"); ?>
 
 
     page vegetarien
@@ -50,6 +50,6 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 
 
     
-<?php include("statics/pieddepage.php"); ?>
+<?php include("pieddepage.php"); ?>
 
     

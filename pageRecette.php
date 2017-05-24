@@ -1,5 +1,5 @@
 
-    <?php include("statics/entete.php"); ?>
+    <?php include("entete.php"); ?>
 
 <?php
 if(isset($_GET['id_recette'])) {
@@ -71,6 +71,6 @@ foreach ($data as $key => $values) {
     </div>
 
 
-<?php include("statics/pieddepage.php"); ?>
+<?php include("pieddepage.php"); ?>
 
 
