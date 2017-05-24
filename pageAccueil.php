@@ -1,7 +1,7 @@
 <?php include ("entete.php");?>
 
 
-   <h1><strong>DeLight</strong></h1>
+   <h1><strong>Delite</strong></h1>
 
 
 <nav class="navbar">
