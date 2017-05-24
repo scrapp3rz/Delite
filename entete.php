@@ -11,8 +11,6 @@
     <div class="container-fluid" >
     	<p id="titresite">Delite</p>
     </div>
-  <link href="bootstrap.min.css" rel="stylesheet">
-     <link href="style.css" rel="stylesheet"> 
 
 
  </head>
@@ -20,7 +18,7 @@
 
    <?php
     include("database.php");
-    include("menu.inc.php"); 
+    include("menuTop.php"); 
     include("function.php");
    
    ?>
