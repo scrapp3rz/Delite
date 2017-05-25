@@ -9,7 +9,11 @@
         
     </head>
     <div class="header" >
-    	<p id="titresite">Delite</p>
+    	<p id="titresite">
+        <a href="pageAccueil.php">              
+                Delite
+        </a>
+      </p>
     </div>
 
 
