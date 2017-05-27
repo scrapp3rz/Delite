@@ -3,80 +3,82 @@
 
 
 
-<nav class="navbar">
+<div class="container-fluid">
 
-    <ul class="navnavbar">
-      
-<div id="accueilligne1"> accueildiv1
-          
+    <ul class="navbar">
+   <!--   
+<div id="accueil1" class="col-xs-4"> 
+    -->      
 
-            <li class= "menu">
+            <li>
                 
-                <a href="pageStarter.php"  ><img src="assets/images/entree.png" alt="Entrées" ></a>
-                 </li> <br>
+                <a href="pageStarter.php"   class="col-xs-4" ><img src="assets/images/entree.png" alt="Entrées" ></a>
+                 </li> 
 
        
-            <li class= "menu">
+            <li>
                 
-                <a href="pageDish.php"><img src="assets/images/plat.png"alt="Plats" ></a>
-                 </li> <br>
+                <a href="pageDish.php"  class="col-xs-4"><img src="assets/images/plat.png"alt="Plats" ></a>
+                 </li> 
 
                  
-            <li class= "menu">
+            <li>
                 
-                <a href="pageDessert.php"><img src="assets/images/dessert.png"alt="Desserts" ></a>
-                 </li> <br>
-
+                <a href="pageDessert.php"  class="col-xs-4"><img src="assets/images/dessert.png"alt="Desserts" ></a>
+                 </li> 
+<!--
 </div>
 
-<div id="accueilligne2"> accueildiv2
+<div id="accueil2" > -->
     
-            <li class= "menu">
+            <li>
                 
-                <a href="pageVegetarien.php"><img src="assets/images/vegetarien.png"alt="Végétarien" ></a>
-                 </li> <br>
+                <a href="pageVegetarien.php"  class="col-xs-4"><img src="assets/images/vegetarien.png"alt="Végétarien" ></a>
+                 </li> 
 
 
 
-            <li class= "menu">
+            <li>
                
-                <a href="page15min.php"><img src="assets/images/15min.png"alt="15 minutes chrono" ></a>
-                 </li> <br>
+                <a href="page15min.php"  class="col-xs-4"><img src="assets/images/15min.png"alt="15 minutes chrono" ></a>
+                 </li> 
 
 
 
-            <li class= "menu">
+            <li>
                 
-                <a href="pageSmartCook.php"><img src="assets/images/smartCook.png"alt="SmartCook" ></a>
-                 </li> <br>
-
+                <a href="pageSmartCook.php"  class="col-xs-4"><img src="assets/images/smartCook.png"alt="SmartCook" ></a>
+                 </li> 
+<!--
 </div>
 
-<div id="accueilligne3"> accueildiv3
+<div id="accueil3" > 
     
+-->
 
-
-            <li class= "menu">
+            <li>
                 
-                <a href="pagePerfectEgg.php"><img src="assets/images/minuteur.png"alt="oeuf parfait" ></a>
-                 </li> <br>
+                <a href="pagePerfectEgg.php"  class="col-xs-4"><img src="assets/images/minuteur.png"alt="oeuf parfait" ></a>
+                 </li> 
 
-            <li class= "menu">
+            <li>
                 
-                <a href="pageDrink.php"><img src="assets/images/boisson.png"alt="Boissons" ></a>
-                 </li> <br>
+                <a href="pageDrink.php"  class="col-xs-4"><img src="assets/images/boisson.png"alt="Boissons" ></a>
+                 </li> 
 
 
 
-            <li class= "menu">
+            <li>
                 
-                <a href="pageConversion.php"><img src="assets/images/conversion.png"alt="conversion" ></a>
-                 </li> <br>
+                <a href="pageConversion.php"  class="col-xs-4"><img src="assets/images/conversion.png"alt="conversion" ></a>
+                 </li> 
 
-</div>
 
 </ul>
-</nav>
+</div>
+
+
+
 
 
 
