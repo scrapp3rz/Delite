@@ -1,9 +1,11 @@
 <?php include ("entete.php");?>
 
 
+<div class="row">
+    
 
 
-<div class="container-fluid">
+<div class="container">
 
     <ul class="navbar">
    <!--   
@@ -18,13 +20,13 @@
        
             <li>
                 
-                <a href="pageDish.php"  class="col-xs-4"><img src="assets/images/plat.png"alt="Plats" ></a>
+                <a href="pageDish.php"  class="col-xs-4" ><img src="assets/images/plat.png"alt="Plats" ></a>
                  </li> 
 
                  
             <li>
                 
-                <a href="pageDessert.php"  class="col-xs-4"><img src="assets/images/dessert.png"alt="Desserts" ></a>
+                <a href="pageDessert.php"  class="col-xs-4" ><img src="assets/images/dessert.png"alt="Desserts" ></a>
                  </li> 
 <!--
 </div>
@@ -33,21 +35,21 @@
     
             <li>
                 
-                <a href="pageVegetarien.php"  class="col-xs-4"><img src="assets/images/vegetarien.png"alt="Végétarien" ></a>
+                <a href="pageVegetarien.php"  class="col-xs-4" ><img src="assets/images/vegetarien.png"alt="Végétarien" ></a>
                  </li> 
 
 
 
             <li>
                
-                <a href="page15min.php"  class="col-xs-4"><img src="assets/images/15min.png"alt="15 minutes chrono" ></a>
+                <a href="page15min.php"  class="col-xs-4" ><img src="assets/images/15min.png"alt="15 minutes chrono" ></a>
                  </li> 
 
 
 
             <li>
                 
-                <a href="pageSmartCook.php"  class="col-xs-4"><img src="assets/images/smartCook.png"alt="SmartCook" ></a>
+                <a href="pageSmartCook.php"  class="col-xs-4" ><img src="assets/images/smartCook.png"alt="SmartCook" ></a>
                  </li> 
 <!--
 </div>
@@ -58,26 +60,26 @@
 
             <li>
                 
-                <a href="pagePerfectEgg.php"  class="col-xs-4"><img src="assets/images/minuteur.png"alt="oeuf parfait" ></a>
+                <a href="pagePerfectEgg.php"  class="col-xs-4" ><img src="assets/images/minuteur.png"alt="oeuf parfait" ></a>
                  </li> 
 
             <li>
                 
-                <a href="pageDrink.php"  class="col-xs-4"><img src="assets/images/boisson.png"alt="Boissons" ></a>
+                <a href="pageDrink.php"  class="col-xs-4" ><img src="assets/images/boisson.png"alt="Boissons" ></a>
                  </li> 
 
 
 
             <li>
                 
-                <a href="pageConversion.php"  class="col-xs-4"><img src="assets/images/conversion.png"alt="conversion" ></a>
+                <a href="pageConversion.php"  class="col-xs-4" ><img src="assets/images/conversion.png"alt="conversion" ></a>
                  </li> 
 
 
 </ul>
 </div>
 
-
+</div>
 
 
 

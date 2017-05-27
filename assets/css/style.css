@@ -100,40 +100,8 @@ html body .container-fluid.body-content {
  	display: block;
     float: left;
 }
-/*
-#accueil1 {
-	vertical-align: middle; 
-	list-style: none;
-	margin-top : 2%;
-	margin-left : auto;
-	margin-bottom: auto;
-	height: 650 px;
-	width : 250 px;
-	display: inline-block;
 
-}
 
-#accueil2 {
-		vertical-align: middle; 
 
-	list-style: none;
-	height: 650 px;
-	width : 250 px;
-	margin-top : 2%;
-	margin-left: auto;
-	margin-bottom: auto;
-	display: inline-block;
 
-}
 
-#accueil3 {
-		vertical-align: middle; 
-
-	list-style: none;
-	height: 650 px;
-	width : 250 px;
-	margin-top : 2%;
-	margin-left : auto;
-	margin-bottom: auto;
-	display: inline-block;
-}
