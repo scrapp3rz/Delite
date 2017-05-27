@@ -1,7 +1,7 @@
 <?php include ("entete.php");?>
 
 
-   <h1><strong>Delite</strong></h1>
+
 
 <nav class="navbar">
 
