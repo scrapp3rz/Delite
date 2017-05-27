@@ -23,7 +23,7 @@
 
    <?php
     include("db/database.php");
-    include("statics/menuTop.php"); 
+ //   include("menuTop.php"); 
     include("statics/function.php");
    
    ?>
