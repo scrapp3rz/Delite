@@ -137,7 +137,7 @@ html body .container-fluid.body-content {
 .div-couleur1 {
     background: #59A9F9;
     border-radius: 1px;
-    transition: all .5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -156,7 +156,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -168,7 +168,7 @@ html body .container-fluid.body-content {
 .div-couleur2 {
     background: #FE5B15;
     border-radius: 1px;
-    transition: all 1s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -187,7 +187,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -199,7 +199,7 @@ html body .container-fluid.body-content {
 .div-couleur3 {
     background: #A965BE;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -218,7 +218,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 0.5s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -229,7 +229,7 @@ html body .container-fluid.body-content {
 .div-couleur4 {
     background: #5ED65E;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -249,7 +249,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -260,7 +260,7 @@ html body .container-fluid.body-content {
 .div-couleur5 {
     background: #C34038;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -279,7 +279,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -290,7 +290,7 @@ html body .container-fluid.body-content {
 .div-couleur6 {
     background: #1187CB;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -310,7 +310,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -321,7 +321,7 @@ html body .container-fluid.body-content {
 .div-couleur7 {
     background: #AE38D2;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -341,7 +341,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -353,7 +353,7 @@ html body .container-fluid.body-content {
 .div-couleur8 {
     background: #A965BE;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -373,7 +373,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -385,7 +385,7 @@ html body .container-fluid.body-content {
 .div-couleur9 {
     background: #97CC97;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -405,7 +405,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -417,7 +417,7 @@ html body .container-fluid.body-content {
 .div-couleur10 {
     background: #F0B943;
     border-radius: 1px;
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
@@ -436,7 +436,7 @@ html body .container-fluid.body-content {
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
-	transition: all 1s;
+	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
 	font-size: 1.3em;
 	text-decoration: none; 
@@ -446,7 +446,7 @@ html body .container-fluid.body-content {
 
 /* titre de l'accueil color =================== */
 .titreheader {
-    transition: all 0.5s;
+    transition: all 0.2s;
 	text-align: center;
 	color: #fff;
 	font-size: 1.1em;
@@ -458,7 +458,7 @@ html body .container-fluid.body-content {
 .titreheader:hover {
 	text-align: center;
 	color: #808080;
-	transition: all 1s;
+	transition: all 0.2s;
 	font-size: 1.2em;
 	text-decoration: none; 
 }
