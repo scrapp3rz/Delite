@@ -1,7 +1,16 @@
 
     <?php include("entete.php"); ?>
 
- 
+     <!-- Ininialisation de la page Desserts 
+==================================================================================
+==================================================================================
+
+-->
+<!--
+    Le code couleur utilisé est celui correspondant à celui du menu d'accueil, 
+    en utilisant un dégradé en css pour une transition. Chaque divcouleur a pour 
+    numéro le numéro correspondant à son ID dans la base de données.
+    -->
 
      
 <?php 
@@ -55,5 +64,10 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 </div>
 
     
+        <!-- fin de la page Smartcook 
+==================================================================================
+==================================================================================
+
+-->
 <?php include("pieddepage.php"); ?>
 

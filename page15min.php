@@ -1,10 +1,21 @@
 
     <?php include("entete.php"); ?>
 
+    <!-- Ininialisation de la page 15min 
+==================================================================================
+==================================================================================
 
-    page 15minutes
+-->
 
-    A FAIRE!!!!
+<!--
+    Le code couleur utilisé est celui correspondant à celui du menu d'accueil, 
+    en utilisant un dégradé en css pour une transition. Chaque divcouleur a pour 
+    numéro le numéro correspondant à son ID dans la base de données.
+    -->
+
+    page 15minutes <br>
+
+    A FAIRE en bdd pour remonter les recettes déjà existantes!!
 
 <?php 
 // On récupère le contenu de la table des recettes
@@ -49,7 +60,11 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 
 ?>
 
+    <!-- fin de la page 15min 
+==================================================================================
+==================================================================================
 
+-->
 
     
 <?php include("pieddepage.php"); ?>

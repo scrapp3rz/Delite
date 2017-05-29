@@ -1,9 +1,18 @@
 
     <?php include("entete.php"); ?>
 
- 
+    <!-- Ininialisation de la page Smartcook 
+==================================================================================
+==================================================================================
 
-     
+-->
+<!--
+    Le code couleur utilisé est celui correspondant à celui du menu d'accueil, 
+    en utilisant un dégradé en css pour une transition. Chaque divcouleur a pour 
+    numéro le numéro correspondant à son ID dans la base de données.
+    -->
+
+  
 <?php 
 // On récupère le contenu de la table des recettes
 
@@ -29,7 +38,7 @@ while ($donnees = $reponse->fetch())
 
 <div class="div-couleur4" >  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
 
-   <p class="titrerecette"> 
+   <p class="titrerecette">   <!-- affichage de la recette avec son temps de préparation et de cuisson -->
      <strong> 
     <?php  echo $donnees['nomrecette']; ?> </strong>
    </p>    
@@ -53,7 +62,11 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 ?>
 </div>
 </div>
+    <!-- fin de la page Smartcook 
+==================================================================================
+==================================================================================
 
+-->
     
 <?php include("pieddepage.php"); ?>
 

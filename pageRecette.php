@@ -1,3 +1,11 @@
+<!--
+    Le code couleur utilisé ne correspond volontaire à aucun du menu d'accueil, 
+    pour un souci de lisibilité. Le choix d'utiliser un fond légèrement grisé a pour
+    objectif de rappeler le papier, et le texte est sur une nuance de marron foncé et
+    non pas de noir afin de garder une certaine douceur à la lecture, tout en ayant un 
+    contraste suffisant pour lire aisément.
+
+    -->
 
     
 
@@ -7,12 +15,12 @@
 if(isset($_GET['id_recette'])) {
     $id_recette = $_GET['id_recette'];
 }
-else $id_recette=1;
+else $id_recette=1; /*choix de la recette, sinon propose la 1 */
 
 if(isset($_GET['numberToSubmit'])) {
     $numberToSubmit = $_GET['numberToSubmit'];
 }
-else $numberToSubmit=1;
+else $numberToSubmit=1;  /*choix du nombre de convives, sinon démarre à 1 */
 
 $data = recipeFor2b($id_recette,$numberToSubmit);
 
@@ -21,7 +29,7 @@ $data = recipeFor2b($id_recette,$numberToSubmit);
 
 
  <div class="div-couleur0">
-Recette pour
+Recette pour    <!--  affichage de la recette, titre, quantités initialisées à 1 -->
 
 <form method="GET">
 <input type="number" name="numberToSubmit" value="<?php echo $numberToSubmit; ?>" min="1" max="50">
@@ -30,13 +38,6 @@ Recette pour
 
         </form>
   
-
-
-
-
-
-
-
    <p class="titrerecette">
     
   <h1> <strong> <?php echo $data[0]['nomrecette'];    ?> </strong></h1>

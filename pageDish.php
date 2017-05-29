@@ -1,7 +1,17 @@
 
     <?php include("entete.php"); ?>
 
- 
+     <!-- Ininialisation de la page plat 
+==================================================================================
+==================================================================================
+
+-->
+
+<!--
+    Le code couleur utilisé est celui correspondant à celui du menu d'accueil, 
+    en utilisant un dégradé en css pour une transition. Chaque divcouleur a pour 
+    numéro le numéro correspondant à son ID dans la base de données.
+    -->
 
      
 <?php 
@@ -54,6 +64,10 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 </div>
 </div>
 
-    
+    <!-- fin de la page plat 
+==================================================================================
+==================================================================================
+
+-->
 <?php include("pieddepage.php"); ?>
 
