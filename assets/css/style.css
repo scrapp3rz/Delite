@@ -1,82 +1,17 @@
 /* CSS de Delite, version web.*/
 
 
-/* réinitialisation du CSS pour le navigateur
-==================================================================
-==================================================================
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* Fin de la réinitialisation du CSS pour le navigateur
-==================================================================
-==================================================================
-*/
-
-
-
-
-html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-}
-
 /* introduction d'une image de fond sur l'index 
 ==================================================================
 ==================================================================
-*/
+
 .bodyindex{
-	background-image: url(assets/images/cookie1.png);
+	background: url(assets/images/Cookie1.png);
 	background-repeat: no-repeat ; 
  	background-attachment: fixed ;
 }
 
-
+*/
 
 #menucentre {
   height: 100%;
@@ -283,6 +218,7 @@ html body .container-fluid.body-content {
 ==================================================================
 ==================================================================
 */
+
 
 .div-couleur1 {
     background: #59A9F9;
@@ -692,4 +628,145 @@ html body .container-fluid.body-content {
 	font-size: 1.2em;
 	text-decoration: none; 
 }
+
+
+
+/* 
+CSS du menu d'accueil
+==================================================================
+==================================================================
+*/
+.cat-recipe {
+	display: block;
+    min-height: 300px;
+    text-align: center;
+	line-height: 300px;
+}
+
+.cat-recipe h2 {
+    line-height: 300px;
+}
+
+.cat-recipe.entree {
+    background-color: #59A9F9;
+	opacity: 0.8;
+}
+
+.cat-recipe.entree:hover {
+    background-color: #59A9F9;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.plat {
+    background-color: #FE5B15;
+	opacity: 0.8;
+}
+
+.cat-recipe.plat:hover {
+    background-color: #FE5B15;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.dessert {
+    background-color: #A965BE;
+	opacity: 0.8;
+}
+
+.cat-recipe.dessert:hover {
+    background-color: #A965BE;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.vegetarien {
+    background-color: #97CC97;
+	opacity: 0.8;
+}
+
+.cat-recipe.vegetarien:hover {
+    background-color: #97CC97;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.chrono {
+    background-color: #F0B943;
+	opacity: 0.8;
+}
+
+.cat-recipe.chrono:hover {
+    background-color: #F0B943;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.smartcook {
+    background-color: #5ED65E;
+	opacity: 0.8;
+}
+
+.cat-recipe.smartcook:hover {
+    background-color: #5ED65E;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.timer {
+    background-color: #1187CB;
+	opacity: 0.8;
+}
+.cat-recipe.timer:hover {
+    background-color: #1187CB;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+.cat-recipe.drink {
+    background-color: #C34038;
+	opacity: 0.8;
+}
+.cat-recipe.drink:hover {
+    background-color: #C34038;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+
+.cat-recipe.conversion {
+    background-color: #AE38D2;
+	opacity: 0.8;
+}
+
+.cat-recipe.conversion:hover {
+    background-color: #AE38D2;
+	transition: all 0.2s;
+	font-size: 1.3em;
+    border-radius: 15px;
+	opacity: 1;
+}
+
+
+
+
+
+
+
 

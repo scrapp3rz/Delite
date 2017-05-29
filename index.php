@@ -8,11 +8,11 @@
       <link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
      <link href="assets/css/style.css" rel="stylesheet">
     </head>
-    <body id="bodyindex">
+
    <?php  include("entete.php"); ?> 
-
-
-<div id="titreaccueil">
+    <body id="bodyindex">
+ 
+<div id="titreaccueil"   >
    <h1>La cuisine pour tous</h1>  
 </div>
 <br>
