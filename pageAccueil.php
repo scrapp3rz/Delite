@@ -1,83 +1,70 @@
 <?php include ("entete.php");?>
 
 
-<div class="row">
+<div class="container">
     
 
 
-<div class="container">
-
-    <ul class="navbar">
-   <!--   
-<div id="accueil1" class="col-xs-4"> 
-    -->      
-
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageStarter.php"   class="col-xs-4" ><img src="assets/images/entree.png" alt="Entrées" ></a>
-                 </li> 
+                <a href="pageStarter.php"   ><img src="assets/images/entree.png" alt="Entrées" ></a>
+                 </div> 
 
        
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageDish.php"  class="col-xs-4" ><img src="assets/images/plat.png"alt="Plats" ></a>
-                 </li> 
+                <a href="pageDish.php"   ><img src="assets/images/plat.png"alt="Plats" ></a>
+                 </div> 
 
                  
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageDessert.php"  class="col-xs-4" ><img src="assets/images/dessert.png"alt="Desserts" ></a>
-                 </li> 
-<!--
-</div>
+                <a href="pageDessert.php"   ><img src="assets/images/dessert.png"alt="Desserts" ></a>
+                 </div> 
 
-<div id="accueil2" > -->
+
     
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageVegetarien.php"  class="col-xs-4" ><img src="assets/images/vegetarien.png"alt="Végétarien" ></a>
-                 </li> 
+                <a href="pageVegetarien.php"   ><img src="assets/images/vegetarien.png"alt="Végétarien" ></a>
+                 </div> 
 
 
 
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                
-                <a href="page15min.php"  class="col-xs-4" ><img src="assets/images/15min.png"alt="15 minutes chrono" ></a>
-                 </li> 
+                <a href="page15min.php"  ><img src="assets/images/15min.png"alt="15 minutes chrono" ></a>
+                 </div> 
 
 
 
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageSmartCook.php"  class="col-xs-4" ><img src="assets/images/smartCook.png"alt="SmartCook" ></a>
-                 </li> 
-<!--
-</div>
+                <a href="pagesmartCook.php"   ><img src="assets/images/smartCook.png"alt="xsartCook" ></a>
+                 </div> 
 
-<div id="accueil3" > 
-    
--->
+ 
 
-            <li>
+
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pagePerfectEgg.php"  class="col-xs-4" ><img src="assets/images/minuteur.png"alt="oeuf parfait" ></a>
-                 </li> 
+                <a href="pagePerfectEgg.php"   ><img src="assets/images/minuteur.png"alt="oeuf parfait" ></a>
+                 </div> 
 
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageDrink.php"  class="col-xs-4" ><img src="assets/images/boisson.png"alt="Boissons" ></a>
-                 </li> 
+                <a href="pageDrink.php"   ><img src="assets/images/boisson.png"alt="Boissons" ></a>
+                 </div> 
 
 
 
-            <li>
+            <div class="col-xs-3 col-xs-offset-1">
                 
-                <a href="pageConversion.php"  class="col-xs-4" ><img src="assets/images/conversion.png"alt="conversion" ></a>
-                 </li> 
+                <a href="pageConversion.php"   ><img src="assets/images/conversion.png"alt="conversion" ></a>
+                 </div> 
 
 
-</ul>
-</div>
+
 
 </div>
 

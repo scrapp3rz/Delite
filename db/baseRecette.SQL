@@ -98,7 +98,7 @@ VALUES
 insert into categorie 
 (nomcategorie, logo) 
 VALUES
-('entrée', ' '),
+('entree', ' '),
 ('plat', ' '),
 ('dessert', ' '),
 ('SmartCook', ' '),
@@ -106,7 +106,8 @@ VALUES
 ('oeuf parfait', ' '),
 ('conversion', ' '),
 ('nouvelle recette', ' '),
-('végétarien', ' ')
+('vegetarien', ' '),
+('15min', ' ')
 ;
 
 insert into selection

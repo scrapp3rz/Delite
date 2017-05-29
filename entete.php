@@ -9,8 +9,8 @@
         
     </head>
     <div class="header" >
-    	<p id="titresite">
-        <a href="pageAccueil.php">              
+    	<p id="titresite" class="titrecouleur" >
+        <a href="pageAccueil.php" alt="Accueil">       
                 Delite
         </a>
         

@@ -1,9 +1,9 @@
 
     <?php include("entete.php"); ?>
 
+ 
 
-    page drink
-
+     
 <?php 
 // On récupère le contenu de la table des recettes
 
@@ -27,16 +27,21 @@ while ($donnees = $reponse->fetch())
 {
 ?>
 
-    <p>
+<div class="div-couleur5" >  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
 
-    <strong>Recette</strong> :  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
-    <?php  echo $donnees['nomrecette']; ?> <br>
-    Temps de préparation : <?php echo $donnees['preparation']; ?> minutes<br>
-    Cuisson : <?php echo $donnees['temperature']; ?>  <br> <a/>
+   <p class="titrerecette"> 
+     <strong> 
+    <?php  echo $donnees['nomrecette']; ?> </strong>
+   </p>    
+   
+   <p class="titrerecette"> 
+    Préparation : <?php echo $donnees['preparation']; ?> minutes   -   
 
-<br>
-   </p>
-<br>
+    Cuisson : <?php echo $donnees['temperature']; ?>  <br> 
+ </p>    <a/>
+
+
+    </div>
 <?php
 
 }
@@ -46,8 +51,8 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 
 
 ?>
-
-
+</div>
+</div>
 
     
 <?php include("pieddepage.php"); ?>
