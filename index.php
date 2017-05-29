@@ -8,19 +8,22 @@
       <link href="assets/css/bootstrap.min.css" rel="stylesheet"> 
      <link href="assets/css/style.css" rel="stylesheet">
     </head>
-    <body>
+    <body id="bodyindex">
    <?php  include("entete.php"); ?> 
+
+
+<div id="titreaccueil">
+   <h1>La cuisine pour tous</h1>  
+</div>
+<br>
+
+
+
+
+
+
+
  <div class="slogan">
-   
- <h1>La cuisine pour tous</h1>
-
- </div>
-
-
-
-
-
-
 
 <a href="pageAccueil.php">
 Pour cuisiner, cliquez ici
@@ -28,7 +31,7 @@ Pour cuisiner, cliquez ici
 </a>
 
 
-
+ </div>
 
 
 

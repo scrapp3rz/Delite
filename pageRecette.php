@@ -1,4 +1,6 @@
 
+    
+
     <?php include("entete.php"); ?>
 
 <?php
@@ -18,7 +20,7 @@ $data = recipeFor2b($id_recette,$numberToSubmit);
 ?>
 
 
- <div class="modifquantite">
+ <div class="div-couleur0">
 Recette pour
 
 <form method="GET">
@@ -27,18 +29,17 @@ Recette pour
 <input type="hidden" name="id_recette" value="<?php echo $id_recette; ?>">
 
         </form>
-    </div>
+  
 
 
 
 
 
-<div class="div-couleur0" >
 
 
    <p class="titrerecette">
     
-  <h1> <?php echo $data[0]['nomrecette'];    ?> </h1>
+  <h1> <strong> <?php echo $data[0]['nomrecette'];    ?> </strong></h1>
 </p> <br>
 
 <div class="recettePrepareTime">
@@ -55,15 +56,13 @@ Recette pour
 
 
 <div class="recetteIngredient">
-    Ingrédients : <br>
+    Ingrédients : <br> <strong>
 <?php // boucle pour afficher les ingrédients et quantité
 foreach ($data as $key => $values) {
-    echo $values['nomingredient'].' - '.$values['newQuantite'].' '.$values['type_mesure'].'<br>'."\n";
+    echo $values['nomingredient'].' : '.$values['newQuantite'].' '.$values['type_mesure'].'<br>'."\n";
 }
-
-
-
 ?>
+</strong>
 
 <div class="recetteConsigne">
     Description : <br>
@@ -73,7 +72,5 @@ foreach ($data as $key => $values) {
 
     </div>
 
-
 <?php include("pieddepage.php"); ?>
-
 
