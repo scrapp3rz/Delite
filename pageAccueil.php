@@ -1,7 +1,6 @@
 <?php include ("entete.php");?>
 
 
-    
 
 
             <div class="col-xs-3 col-xs-offset-1">
@@ -61,15 +60,6 @@
                 
                 <a href="pageConversion.php"   ><img src="assets/images/conversion.png"alt="conversion" ></a>
                  </div> 
-
-
-
-
-
-
-
-
-
 
 
 

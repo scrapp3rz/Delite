@@ -17,49 +17,42 @@ $data = recipeFor2b($id_recette,$numberToSubmit);
 //  var_dump ($numberToSubmit);
 ?>
 
-Je fais ma recette pour 
 
+ <div class="modifquantite">
+Recette pour
 
 <form method="GET">
-    <p>
-<input type="number" name="numberToSubmit" value="<?php echo $numberToSubmit; ?>" min="1" max="30">
-<input type="submit"  value="Envoyer">
+<input type="number" name="numberToSubmit" value="<?php echo $numberToSubmit; ?>" min="1" max="50">
+<button type="submit" class="btn btn-outline-secondary">En cuisine!</button>
 <input type="hidden" name="id_recette" value="<?php echo $id_recette; ?>">
 
-    </p>
-</form>
+        </form>
+    </div>
 
 
 
 
 
+<div class="div-couleur0" >
 
 
-
-
-<div class="recetteTitle">
+   <p class="titrerecette">
     
   <h1> <?php echo $data[0]['nomrecette'];    ?> </h1>
-</div> <br>
+</p> <br>
+
 <div class="recettePrepareTime">
-    Temps de préparation : <br>
-    <?php  echo $data[0]['preparation'];  ?> minutes
-</div> <br>
+    Préparation : 
+    <?php  echo $data[0]['preparation'];  ?> minutes  
+ 
 
-<div class="recetteCookingTime">
-    Temps de cuisson :  <br>
-    <?php  echo $data[0]['cuisson'];  ?> minutes
-</div> <br>
+    Cuisson :  
+    <?php  echo $data[0]['cuisson'];  ?> minutes  à 
 
-<div class="recetteDesc">
-    Cuisson : <br>
+
     <?php echo   $data[0]['temperature'];  ?>
 </div> <br>
 
-<div class="recetteConsigne">
-    Description : <br>
-    <?php  echo  $data[0]['description'];  ?>
-    </div> <br>
 
 <div class="recetteIngredient">
     Ingrédients : <br>
@@ -67,7 +60,17 @@ Je fais ma recette pour
 foreach ($data as $key => $values) {
     echo $values['nomingredient'].' - '.$values['newQuantite'].' '.$values['type_mesure'].'<br>'."\n";
 }
+
+
+
 ?>
+
+<div class="recetteConsigne">
+    Description : <br>
+    <?php  echo  $data[0]['description'];  ?>
+    </div> <br>
+
+
     </div>
 
 
