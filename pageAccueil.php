@@ -1,7 +1,6 @@
 <?php include ("entete.php");?>
 
 
-<div class="container">
     
 
 
@@ -66,7 +65,6 @@
 
 
 
-</div>
 
 
 

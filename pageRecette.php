@@ -38,7 +38,7 @@ Je fais ma recette pour
 
 
 <div class="recetteTitle">
-    <h1>Titre de la recette : </h1>
+    
   <h1> <?php echo $data[0]['nomrecette'];    ?> </h1>
 </div> <br>
 <div class="recettePrepareTime">

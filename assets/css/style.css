@@ -4,6 +4,8 @@ html {
   width: 100%;
   margin: 0;
   padding: 0;
+
+
 }
 
 ul {
@@ -14,6 +16,12 @@ a {
 text-decoration: none; 
 color: #fff;
 }
+
+a:hover {
+text-decoration: none; 
+color: #fff;
+}
+
 
 .titrerecette {
 	color: #fff;
@@ -43,6 +51,7 @@ html body .container-fluid.body-content {
 }
 .p-anim:hover {
     color: #FFF;
+	text-decoration: none;
 }
 
 
@@ -59,6 +68,18 @@ html body .container-fluid.body-content {
 	text-decoration: none; 
 
     }
+
+.footer {
+	height: 5%;
+    background: #E5E5E5;
+    background-color: #E5E5E5;
+    opacity: 0.8;
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    text-align: center;
+    list-style: none;
+    
+ }
 
 #nbconv {
 	background: #FFE9E9;
@@ -102,17 +123,7 @@ html body .container-fluid.body-content {
 }
 */
 
-.footer {
-	height: 5%;
-    background: #E5E5E5;
-    background-color: #E5E5E5;
-    opacity: 0.7;
-    position: fixed;
-    left: 0; right: 0; bottom: 0;
-    text-align: center;
-    list-style: none;
-    
- }
+
 
 #menutoptop {
 	clear: both;
@@ -147,7 +158,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -178,7 +189,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -209,7 +220,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.5s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -240,7 +251,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -260,7 +271,6 @@ html body .container-fluid.body-content {
 	font-size: 1em;
 	text-decoration: none; 
 
-
 }
 
 
@@ -271,7 +281,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -302,7 +312,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -333,7 +343,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -365,7 +375,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -397,7 +407,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
@@ -428,28 +438,28 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 1s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	text-decoration: none; 
 
 }
 
 
 /* titre de l'accueil color =================== */
-.titrecouleur {
+.titreheader {
     transition: all 0.5s;
 	text-align: center;
 	color: #fff;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	text-decoration: none; 
 
 
 }
 
-.titrecouleur:hover {
+.titreheader:hover {
 	text-align: center;
 	color: #808080;
 	transition: all 1s;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-decoration: none; 
-
 }
+
