@@ -14,6 +14,7 @@
                     </h1>
                     <p class="copy">&#169; <span id="copyright-year"> 2017</span>
                         <a href="about.php"> <b><strong>Delight</strong></b></a> - A Scrapp3rz's delightful project
+                         <a href="contact.php"> <b><strong>Contact</strong></b></a>
                         <a rel="nofollow" href="   " target="le site à créer"> </a>
                     </p>
              <!--       <ul class="inline-list">
