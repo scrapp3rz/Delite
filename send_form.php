@@ -17,7 +17,7 @@ if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
   $errors ['message'] = "vous n'avez pas renseigné votre message";
   }
 if(array_key_exists('antispam', $_POST)) {// on place un petit filet anti robots spammers
-  $errors ['antispam'] = "Vous êtes un robots spammer";
+  $errors ['antispam'] = "Vous êtes un un robot spammer, vous avez coché la case!";
   }
 //On check les infos transmises lors de la validation
   if(!empty($errors)){ // si erreur on renvoie vers la page précédente
