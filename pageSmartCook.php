@@ -29,7 +29,8 @@ $reponse = $db->query('SELECT	  nomrecette
 			            			ON recette.id = id_recette
 			            	JOIN categorie 
 			            			ON categorie.id = id_categorie
-                            WHERE categorie.id = 4');
+                            WHERE categorie.id = 4
+                            ORDER BY nomrecette');
 
 // On affiche chaque entrée une à une
 while ($donnees = $reponse->fetch())
