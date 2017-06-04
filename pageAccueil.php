@@ -1,6 +1,6 @@
 <?php include ("entete.php");?>
 
-<div class="container">
+<div class="container pageAccueil">
 
     <div class="col-md-4">
         <div class="cat-recipe entree">

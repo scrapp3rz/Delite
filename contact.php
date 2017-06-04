@@ -21,7 +21,7 @@
   </div>
   </div>
 <!-- CONTENT -->
-  <div class="container">
+  <div class="container ">
   <?php if(array_key_exists('errors',$_SESSION)): ?>
   <div class="alert alert-danger">
   <?= implode('<br>', $_SESSION['errors']); ?>
@@ -65,7 +65,7 @@ Si vous cochez cette case, le message ne partira pas.
   </div><!--/*.col-md-12-->
 </div><!--/*.row-->
   </form>
-</div><!--/*.container-->
+</div><!--/*.container -->
   <!-- END CONTENT -->
 </body>
   </html>

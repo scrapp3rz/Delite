@@ -32,8 +32,8 @@ $data = recipeFor2b($id_recette,$numberToSubmit);
 Recette pour    <!--  affichage de la recette, titre, quantités initialisées à 1 -->
 
 <form method="GET">
-<input type="number" name="numberToSubmit" value="<?php echo $numberToSubmit; ?>" min="1" max="50">
-<button type="submit" class="btn btn-outline-secondary">En cuisine!</button>
+<input type="number" name="numberToSubmit" class="numberToCookFor" value="<?php echo $numberToSubmit; ?>" min="1" max="50">
+<button type="submit" class="btn btn-outline-success numberToCookFor2">En cuisine!</button>
 <input type="hidden" name="id_recette" value="<?php echo $id_recette; ?>">
 
         </form>

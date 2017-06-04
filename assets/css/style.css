@@ -12,14 +12,17 @@
 }
 
 */
+body  {
+background: #3B3B40;
+}
 
 #menucentre {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-	
 }
+
 
 /* modification préventive des UL et A 
 ==================================================================
@@ -61,6 +64,7 @@ html body .container-fluid.body-content {
   left: 0;
   overflow-y: auto;
 
+
 }
 
 
@@ -82,7 +86,7 @@ html body .container-fluid.body-content {
 	margin-right: 35%;
 	margin-top: 1%;
 	margin-bottom: 1%;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	text-decoration: none; 
 	opacity: 0.7;
 	border-radius: 5px;
@@ -123,8 +127,8 @@ html body .container-fluid.body-content {
 	color: #fff;
 	height: -3%;
 	text-align: center;
-	font-size: 3.5em;
-    opacity : 0.8;
+	font-size: 3.2em;
+    opacity : 0.9;
 	padding-top: 0%;
 	padding-bottom: 0%;
 	text-decoration: none; 
@@ -139,7 +143,7 @@ html body .container-fluid.body-content {
 	height: 3%;
     background: #808080;
     background-color: #808080;
-    opacity: 0.8;
+    opacity: 0.9;
     position: fixed;
     left: 0; right: 0; bottom: 0;
     text-align: center;
@@ -245,7 +249,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -279,7 +283,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -313,7 +317,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -347,7 +351,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -380,7 +384,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -414,7 +418,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -448,7 +452,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -483,7 +487,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -518,7 +522,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -552,7 +556,7 @@ html body .container-fluid.body-content {
 	color: #FFF;
 	transition: all 0.2s;
 	padding: 1% 1% 1% 1%;
-	font-size: 1.3em;
+	font-size: 1.9em;
 	text-decoration: none; 
 
 }
@@ -564,11 +568,11 @@ html body .container-fluid.body-content {
 */
 
 .div-couleur0 {
-    background:  	#F1F3F2;
+    background:  	#3B3B40;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
-	color: #401B00;
+	color: #fff;
 	padding: 0% 0% 0% 0%;
 	margin-left: 0%;
 	margin-right: 0%;
@@ -582,11 +586,11 @@ html body .container-fluid.body-content {
 }
 
 .recetteConsigne {
-    background:  	#F1F3F2;
+    background:  	#3B3B40;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
-	color: #401B00;
+	color: #fff;
 	padding: 0% 0% 0% 0%;
 	margin-left: 25%;
 	margin-right: 25%;
@@ -599,12 +603,25 @@ html body .container-fluid.body-content {
 
 
 .pagentiere {
- 	background: #F1F3F2;
+ 	background: #3B3B40;
 	padding: 0% 0% 0% 0%;
 }
 
+.numberToCookFor {
+	background: #3B3B40;
+	border-radius: 5px;
+}
 
-
+.numberToCookFor2 {
+	background: #3B3B40;
+	transition: all 0.3s;
+}
+.numberToCookFor2:hover {
+	transition: all 0.3s;
+	color: #fff;
+	font-size: 1.1em;
+	text-decoration: none; 
+}
 
 
 
@@ -637,129 +654,147 @@ CSS du menu d'accueil
 ==================================================================
 ==================================================================
 */
+.pageAccueil {
+margin-top: auto;
+margin-bottom: auto;
+
+}
+
 .cat-recipe {
 	display: block;
-    min-height: 300px;
+    min-height: 150px;
+	max-height: 150px;
     text-align: center;
-	line-height: 300px;
+	line-height: 30%;
 }
 
 .cat-recipe h2 {
-    line-height: 300px;
+    line-height: 150px;
+	font-size: 1.9em;
 }
 
 .cat-recipe.entree {
-    background-color: #59A9F9;
-	opacity: 0.8;
+    background-color: #54F98D;
+	opacity: 1;
+	transition: all 0.2s;
 }
 
 .cat-recipe.entree:hover {
-    background-color: #59A9F9;
+    background-color: #01D758;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
+
 }
 
 .cat-recipe.plat {
-    background-color: #FE5B15;
-	opacity: 0.8;
+    background-color: #73C2FB;
+	opacity: 1;
+	transition: all 0.2s;
 }
 
 .cat-recipe.plat:hover {
-    background-color: #FE5B15;
+    background-color: #26C4EC;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 .cat-recipe.dessert {
-    background-color: #A965BE;
-	opacity: 0.8;
+    background-color: #df73ff;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 
 .cat-recipe.dessert:hover {
-    background-color: #A965BE;
+    background-color: #fd3f92;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 .cat-recipe.vegetarien {
-    background-color: #97CC97;
-	opacity: 0.8;
+    background-color: #3AF24B;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 
 .cat-recipe.vegetarien:hover {
-    background-color: #97CC97;
+    background-color: #00ff00;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 .cat-recipe.chrono {
-    background-color: #F0B943;
-	opacity: 0.8;
+    background-color: #00BCFF;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 
 .cat-recipe.chrono:hover {
-    background-color: #F0B943;
+    background-color: #00FFFF;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 .cat-recipe.smartcook {
-    background-color: #5ED65E;
-	opacity: 0.8;
+    background-color: #ff007f;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 
 .cat-recipe.smartcook:hover {
-    background-color: #5ED65E;
+    background-color: #ff00ff;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 .cat-recipe.timer {
-    background-color: #1187CB;
-	opacity: 0.8;
+    background-color: #9EFD38;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 .cat-recipe.timer:hover {
-    background-color: #1187CB;
+    background-color: #01D758;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 .cat-recipe.drink {
-    background-color: #C34038;
-	opacity: 0.8;
+    background-color: #0F9DE8;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 .cat-recipe.drink:hover {
-    background-color: #C34038;
+    background-color: #2C75FF;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
 
 
 .cat-recipe.conversion {
-    background-color: #AE38D2;
-	opacity: 0.8;
+    background-color: #f9429e;
+	opacity: 0.9;
+	transition: all 0.2s;
 }
 
 .cat-recipe.conversion:hover {
-    background-color: #AE38D2;
+    background-color: #FF007F;
 	transition: all 0.2s;
-	font-size: 1.3em;
+	font-size: 1.9em;
     border-radius: 15px;
 	opacity: 1;
 }
