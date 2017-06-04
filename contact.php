@@ -11,9 +11,9 @@
 
 </head>
 <body>
-  <div style="padding-bottom:100px" class="container">
+  <div  class="container">
   <div class="row">
-  <div class="col-xs-12 col-md-6">
+  <div class="col-xs-12 col-md-12">
   <hr>
   <div class="alert alert-info"><b></b> Si vous avez une question, une suggestion, merci de m'en faire part. Si vous souhaitez retrouver ici vos recettes favorites, n'hésitez pas à me les envoyer.</div>
   <hr>
