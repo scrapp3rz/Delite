@@ -55,7 +55,7 @@ color: #fff;
 }
 html body .container-fluid.body-content {
   position: absolute;
-  top: 7%;
+  top: 0%;
   bottom: 0;
   right: 0;
   left: 0;
@@ -95,6 +95,7 @@ html body .container-fluid.body-content {
 	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	line-height: 0.9;
 }
 
 
@@ -120,9 +121,9 @@ html body .container-fluid.body-content {
 .header {
 	background: black;
 	color: #fff;
-	height: 7%;
+	height: -3%;
 	text-align: center;
-	font-size: 6em;
+	font-size: 3.5em;
     opacity : 0.8;
 	padding-top: 0%;
 	padding-bottom: 0%;
@@ -135,7 +136,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .footer {
-	height: 5%;
+	height: 3%;
     background: #808080;
     background-color: #808080;
     opacity: 0.8;
