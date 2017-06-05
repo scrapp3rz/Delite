@@ -1,17 +1,6 @@
 /* CSS de Delite, version web.*/
 
 
-/* introduction d'une image de fond sur l'index 
-==================================================================
-==================================================================
-
-.bodyindex{
-	background: url(assets/images/Cookie1.png);
-	background-repeat: no-repeat ; 
- 	background-attachment: fixed ;
-}
-
-*/
 body  {
 background: #3B3B40;
 	color: #fff;
@@ -89,9 +78,18 @@ html body .container-fluid.body-content {
 	margin-bottom: 1%;
 	font-size: 1.2em;
 	text-decoration: none; 
-	opacity: 0.7;
+	opacity: 0.9;
 	border-radius: 5px;
 }
+
+.slogan:hover {
+    background-color: #2C75FF;
+	transition: all 0.2s;
+	font-size: 2m;
+    border-radius: 15px;
+	opacity: 1;
+}
+
 
 #titreaccueil {
     text-align: center;
@@ -173,27 +171,6 @@ html body .container-fluid.body-content {
 	}
 
 
-/*   Ne sert plus poru le moment 
-#auj {
-	text-align: center;
-
-}
-
-#inlineSpan {
-
-	align-self: center;
-}
-
-.encuisinebutton {
-	display: inline-flex;
-	border-radius: 15px;
-	margin-left:  150px;
-
-}
-
-*/
-
-
 .container-fluid #pdp {
 
     background: #E5E5E5;
@@ -227,7 +204,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur1 {
-    background: #59A9F9;
+    background: #54F98D;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -244,7 +221,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur1:hover {
-    background: #1187CB;
+    background: #01D758;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -261,7 +238,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur2 {
-    background: #FE5B15;
+    background: #73C2FB;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -278,7 +255,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur2:hover {
-    background: #C34038;
+    background: #26C4EC;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -295,7 +272,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur3 {
-    background: #A965BE;
+    background: #df73ff;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -312,7 +289,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur3:hover {
-    background: #AE38D2;
+    background: #fd3f92;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -328,7 +305,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur4 {
-    background: #5ED65E;
+    background: #f9429e;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -346,7 +323,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur4:hover {
-    background: #97CC97;
+    background: #ff00ff;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -362,7 +339,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur5 {
-    background: #C34038;
+    background: #0F9DE8;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -379,7 +356,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur5:hover {
-    background: #FE5B15;
+    background: #2C75FF;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -395,7 +372,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur6 {
-    background: #1187CB;
+    background: #9EFD38;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -413,7 +390,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur6:hover {
-    background: #59A9F9;
+    background: #01D758;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -429,7 +406,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur7 {
-    background: #AE38D2;
+    background: #ff007f;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -447,7 +424,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur7:hover {
-    background: #A965BE;
+    background: #FF007F;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -499,7 +476,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur9 {
-    background: #97CC97;
+    background: #3AF24B;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -517,7 +494,7 @@ html body .container-fluid.body-content {
 
 
 .div-couleur9:hover {
-    background: #5ED65E;
+    background: #00ff00;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -534,7 +511,7 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 .div-couleur10 {
-    background: #F0B943;
+    background: #00BCFF;
     border-radius: 1px;
     transition: all 0.2s;
 	text-align: center;
@@ -551,7 +528,7 @@ html body .container-fluid.body-content {
 }
 
 .div-couleur10:hover {
-    background: #DF9E12;
+    background: #00FFFF;
     border-radius: 15px;
 	text-align: center;
 	color: #FFF;
@@ -803,7 +780,117 @@ margin-bottom: auto;
 
 
 
+/* 
+CSS du TIMER    /////////                                    DEBUT
+==================================================================
+==================================================================
+*/
+
+
+*,:after,:before{box-sizing:border-box}
+.pull-left{float:left}
+.pull-right{float:right}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+
+.clock:before,
+.count:after{
+	content:'';
+	position:absolute;
+}
+
+
+.clock-wrap{
+	margin:auto;
+	width:240px;
+	height:240px;
+	margin-top:100px;
+	position:relative;
+	border-radius:15px;
+	background-color:#00FF00;
+	box-shadow:0 0 15px #3B3B40;
+}
+.clock{
+	top:50%;
+	left:50%;
+	width:180px;
+	height:180px;
+	border-radius:50%;
+	position:absolute;
+	margin-top:-90px;
+	margin-left:-90px;
+	background-color:#01D758;
+}
+.clock:before{
+	top:50%;
+	left:50%;
+	width:120px;
+	height:120px;
+	margin-top:-60px;
+	margin-left:-60px;
+	border-radius:inherit;
+	background-color:#9EFD38;
+	box-shadow:0 0 15px #808080, 0 0 3px #3B3B40 inset;
+
+}
+.count{
+	width:100%;
+	color:#3B3B40;
+	height:100%;
+	padding:50px;
+	font-size:32px;
+	font-weight:500;
+	line-height:50px;
+	position:absolute;
+	text-align:center;
+
+}
+.count:after{
+	width:100%;
+	display:block;
+	font-size:18px;
+	font-weight:300;
+	line-height:18px;
+	text-align:center;
+	position:relative;
+}
+.count.sec:after{content:'sec'}
+.count.min:after{content:'min'}
+.action{
+	margin:auto;
+	max-width:200px;
+}
+.action .input{
+	margin-top:30px;
+	position:relative;
+	color:#3B3B40;
+}
+.action .input-num{
+	width:100%;
+	border:none;
+	padding:12px;
+	border-radius:15px;
+}
+.action .input-btn{
+	top:0;
+	right:0;
+	color:#3B3B40;
+	border:none;
+	border:none;
+	padding:12px;
+	position:absolute;
+	border-radius:15px;
+	background-color:#01D758;
+	text-transform:uppercase;
+}
+.tbl{display:table;width:100%}
+.tbl .col{display:table-cell}
 
 
 
 
+/* 
+CSS du TIMER    /////////                                      FIN
+==================================================================
+==================================================================
+*/

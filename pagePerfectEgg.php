@@ -3,7 +3,19 @@
    Page cuisson oeuf 
 </div>
 
-<div class=" ">
+<div class="container-fluid">
+
+<div class="clock-wrap">
+	<div class="clock pro-0">
+		<span class="count">0</span>
+	</div>
+</div>
+<div class="action">
+	<div class="input">
+		<input class="input-num" type="number" min="1" placeholder="Enter Minute"><input data-action="start" class="input-btn" type="button" value="Start">
+	</div>
+</div>
+
     
 </div>
 
