@@ -25,10 +25,10 @@
 
  <div class="slogan">
 
-<a href="pageAccueil.php">
-Pour cuisiner, cliquez ici
+<a href="pageAccueil.php"><strong> <h2>
+Pour cuisiner sur mesure, cliquez ici
 
-</a>
+</h2> </strong> </a>
 
 
  </div>
