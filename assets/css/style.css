@@ -807,7 +807,7 @@ CSS du TIMER    /////////                                    DEBUT
 	margin-top:100px;
 	position:relative;
 	border-radius:15px;
-	background-color:#00FF00;
+	background-color:#01D758;
 	box-shadow:0 0 15px #3B3B40;
 }
 .clock{
@@ -829,8 +829,8 @@ CSS du TIMER    /////////                                    DEBUT
 	margin-top:-60px;
 	margin-left:-60px;
 	border-radius:inherit;
-	background-color:#9EFD38;
-	box-shadow:0 0 15px #808080, 0 0 3px #3B3B40 inset;
+	background-color:#01D758;
+	box-shadow:0 0 15px #9EFD38, 0 0 3px #3B3B40 inset;
 
 }
 .count{
@@ -885,7 +885,6 @@ CSS du TIMER    /////////                                    DEBUT
 }
 .tbl{display:table;width:100%}
 .tbl .col{display:table-cell}
-
 
 
 

@@ -1,11 +1,12 @@
-'use sctrict'
+'use sctrict';
+
 
 
 $step = 1;
 $loops = Math.round(100 / $step);
 $increment = 360 / $loops;
 $half = Math.round($loops / 2);
-$barColor = '#ec366b';
+$barColor = '#00ff00';
 $backColor = '#feeff4';
 
 $(function(){
