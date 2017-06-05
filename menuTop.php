@@ -47,8 +47,8 @@
         </li>    
 
         <li class= "menu">
-            <a href="pagePerfectEgg.php">
-                L'oeuf parfait
+            <a href="pageTimer.php">
+                Minuteur
             </a>
         </li> 
 
