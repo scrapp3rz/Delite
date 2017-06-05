@@ -14,6 +14,7 @@
 */
 body  {
 background: #3B3B40;
+	color: #fff;
 }
 
 #menucentre {
@@ -744,8 +745,8 @@ margin-bottom: auto;
 	opacity: 1;
 }
 
-.cat-recipe.smartcook {
-    background-color: #ff007f;
+.cat-recipe.smartcook {  
+    background-color: #f9429e;
 	opacity: 0.9;
 	transition: all 0.2s;
 }
@@ -786,7 +787,7 @@ margin-bottom: auto;
 
 
 .cat-recipe.conversion {
-    background-color: #f9429e;
+    background-color: #ff007f;
 	opacity: 0.9;
 	transition: all 0.2s;
 }

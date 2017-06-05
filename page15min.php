@@ -45,7 +45,7 @@ while ($donnees = $reponse->fetch())
     <strong>Recette</strong> :  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
     <?php  echo $donnees['nomrecette']; ?> <br>
     Temps de préparation : <?php echo $donnees['preparation']; ?> minutes<br>
-    Cuisson : <?php echo $donnees['temperature']; ?>  <br> <a/>
+    Cuisson : <?php echo $donnees['cuisson']; ?> minutes <br> <a/>
 
 <br>
    </p>
