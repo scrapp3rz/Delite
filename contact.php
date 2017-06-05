@@ -7,8 +7,6 @@
 
   <title>Formulaire de contact - Suggestion de recette </title>
 
-
-
 </head>
 <body>
   <div  class="container">

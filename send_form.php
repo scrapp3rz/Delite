@@ -16,7 +16,7 @@ if(!array_key_exists('email', $_POST) || $_POST['email'] == '' || !filter_var($_
 if(!array_key_exists('message', $_POST) || $_POST['message'] == '') {
   $errors ['message'] = "vous n'avez pas renseigné votre message";
   }
-if(array_key_exists('antispam', $_POST)) {// on place un petit filet anti robots spammers
+if(array_key_exists('antispam', $_POST)) {// on place un filet anti robots spammers
   $errors ['antispam'] = "Vous êtes un un robot spammer, vous avez coché la case!";
   }
 //On check les infos transmises lors de la validation
@@ -29,7 +29,7 @@ if(array_key_exists('antispam', $_POST)) {// on place un petit filet anti robots
   $headers  = 'MIME-Version: 1.0' . "\r\n";
   $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
   $headers .= 'FROM:' . htmlspecialchars($_POST['email']);
-  $to = 'scrapp3rz@gmail.com'; // Insérer votre adresse email ICI
+  $to = 'portabledevincent@gmail.com'; // Insérer votre adresse email ICI
   $subject = 'Message envoyé par ' . htmlspecialchars($_POST['name']) .' - <i>' . htmlspecialchars($_POST['email']) .'</i>';
   $message_content = '
   <table>

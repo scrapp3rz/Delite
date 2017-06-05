@@ -65,7 +65,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 </div>
 
     
-        <!-- fin de la page Smartcook 
+        <!-- fin de la page Dessert 
 ==================================================================================
 ==================================================================================
 

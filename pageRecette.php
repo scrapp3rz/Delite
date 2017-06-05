@@ -1,13 +1,11 @@
 <!--
-    Le code couleur utilisé ne correspond volontaire à aucun du menu d'accueil, 
+    Le code couleur utilisé ne correspond volontairement à aucun du menu d'accueil, 
     pour un souci de lisibilité. Le choix d'utiliser un fond légèrement grisé a pour
     objectif de rappeler le papier, et le texte est sur une nuance de marron foncé et
     non pas de noir afin de garder une certaine douceur à la lecture, tout en ayant un 
     contraste suffisant pour lire aisément.
 
     -->
-
-    
 
     <?php include("entete.php"); ?>
 

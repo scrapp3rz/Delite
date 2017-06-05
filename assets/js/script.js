@@ -1,7 +1,5 @@
 'use sctrict';
 
-
-
 $step = 1;
 $loops = Math.round(100 / $step);
 $increment = 360 / $loops;
@@ -77,3 +75,5 @@ clock={
 		$('.clock').removeAttr('style');
 	}
 };
+
+
