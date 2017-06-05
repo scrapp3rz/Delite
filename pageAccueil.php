@@ -62,7 +62,7 @@
 
     <div class="col-md-4">
         <div class="cat-recipe timer">
-            <a href="pagePerfectEgg.php">
+            <a href="pageTimer.php">
                 <!--<img src="assets/images/minuteur.png" alt="oeuf parfait">-->
                 <h2>Minuteur</h2>
             </a>
