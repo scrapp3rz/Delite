@@ -1,4 +1,4 @@
-/* CSS de Delite, version web.*/
+/* CSS de Delight by Scrapp3rz, version web responsive + Bootstrap.*/
 
 
 body  {
@@ -163,9 +163,18 @@ html body .container-fluid.body-content {
     left: 0; right: 0; bottom: 0;
     text-align: center;
     list-style: none;
-    color: #FFF;	
-    
+    color: #FFF;
+	font-size: 1em;
  }
+
+
+/*
+
+.container-fluid #pdp {
+    text-align: center;
+    font-size: 0.5em;
+
+}
 
 
 /* Centrage de la fonction convives en page recette
@@ -226,8 +235,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -260,8 +267,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -326,8 +331,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -360,8 +363,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -393,8 +394,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -427,8 +426,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -462,8 +459,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -497,8 +492,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -532,8 +525,6 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -555,13 +546,14 @@ html body .container-fluid.body-content {
 }
 
 
-/* page Recette ============================== 
-==================================================================
-==================================================================
+/* page Recette ================================================================= 
+=================================================================================
+=================================================================================
 */
 
 .uppercase {
 	text-transform: uppercase;
+	font-size: 1.2em;
 }
 
 .enCuisine {
@@ -618,22 +610,34 @@ html body .container-fluid.body-content {
 	background: #3B3B40;
 	border-radius: 5px;
 	border-color: #ffff05;
-	font-size: 1.4em;
-	height: 50px;
-	width: 80px;
-	
+	font-size: 1.2em;
+	width: 60px;
 }
+
+.numberToCookFor:hover {
+	transition: all 0.3s;
+	color: #3B3B40;
+	border-radius: 10px;
+	background: #DFFF00;
+	font-size: 1.2em;
+	text-decoration: none; 
+	font-style: bold;
+}
+
 
 .numberToCookFor2 {
 	background: #3B3B40;
-	transition: all 0.3s;
-	font-size: 1em;
-    font-weight: 600;
+	border-radius: 5px;
+	border-color: #ffff05;
+	font-size: 1.2em;
+
 }
 .numberToCookFor2:hover {
 	transition: all 0.3s;
-	color: #fff;
-	font-size: 1.1em;
+	color: #3B3B40;
+	border-radius: 10px;
+	background: #DFFF00;
+	font-size: 1.2em;
 	text-decoration: none; 
 }
 
