@@ -37,7 +37,7 @@ while ($donnees = $reponse->fetch())
 {
 ?>
 
-<div class="div-couleur1" >  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
+<div class="div-couleur1 col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10" >  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
 
    <p class="titrerecette"> 
      <strong> 

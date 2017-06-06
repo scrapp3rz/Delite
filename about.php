@@ -7,7 +7,7 @@
 
 
 
-<p class ="col-md-4 descrProjet"> 
+<p class ="col-md-6 descrProjet"> 
 Delight est une application web dont le but est d’aider les utilisateurs à cuisiner plus
 facilement, plus rapidement, et avec moins de gâchis. <br>
 L’application part du principe que, lorsque l’on cuisine, les recettes sont la plupart
@@ -24,7 +24,7 @@ recette voulue et adaptée en 3 clics <br>
 
 </p>
 
-<p class ="col-md-4 descrProjet"> 
+<p class ="col-md-6 descrProjet"> 
     Delight is a web application which objective is to cook more easily, faster, and with
 less food mess. <br>
 The application is based on the principle that when you’re cooking, the recipes are

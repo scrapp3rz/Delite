@@ -40,16 +40,22 @@ while ($donnees = $reponse->fetch())
 {
 ?>
 
-    <p>
 
-    <strong>Recette</strong> :  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
-    <?php  echo $donnees['nomrecette']; ?> <br>
-    Temps de préparation : <?php echo $donnees['preparation']; ?> minutes<br>
-    Cuisson : <?php echo $donnees['cuisson']; ?> minutes <br> <a/>
+<div class="div-couleur10 col-md-offset-2 col-md-8 col-xs-offset-1 col-xs-10" >  <a href="pageRecette.php?id_recette=<?php echo $donnees['recipeid']?> ">
 
-<br>
-   </p>
-<br>
+   <p class="titrerecette"> 
+     <strong> 
+    <?php  echo $donnees['nomrecette']; ?> </strong>
+   </p>    
+   
+   <p class="titrerecette"> 
+    Préparation : <?php echo $donnees['preparation']; ?> minutes   -   
+
+    Cuisson : <?php echo $donnees['cuisson']; ?> minutes <br> 
+ </p>    <a/>
+
+
+    </div>
 <?php
 
 }
@@ -59,6 +65,9 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 
 
 ?>
+</div>
+</div>
+
 
     <!-- fin de la page 15min 
 ==================================================================================

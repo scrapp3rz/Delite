@@ -30,7 +30,7 @@
   Votre email à bien été transmis !
   </div>
   <?php endif; ?>
-<form action="send_form.php" method="post">
+<form action="mailto:scrapp3rz@gmail.com" method="post">
   <div class="row">
 <div class="col-md-6 col-xs-12">
   <div class="form-group">

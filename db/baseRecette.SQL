@@ -84,7 +84,7 @@ VALUES
 ('Crumble aux pommes', 2, 'Recette pour 6 personnes, desc : 250g de pommes, 50g de farine, 25g de beurre, 65g de sucre en poudre', 20, 25, '180°C'), 
 ('Chessecake au chocolat blanc', 2, 'Recette pour 2 personnes, desc : 2 blanc d oeufs, 2 jaunes d oeufs, 80g de chocolat blanc, 80g de fromage blanc', 10, 15, '170°C'), 
 ('Muffin light au thon', 2, 'Recette pour 2 personnes, desc : 1 yaourt, 2 oeufs, 150g de thon au naturel', 10, 40, '180°C'), 
-('Chessecake au chocolat', 2, 'Recette pour 2 personnes, desc : 2 blanc d oeufs, 2 jaunes d oeufs, 80g de chocolat à dessert, 80g de fromage blanc', 10, 15, '170°C'),
+('Chesecake au chocolat', 2, 'Recette pour 2 personnes, desc : 2 blanc d oeufs, 2 jaunes d oeufs, 80g de chocolat à dessert, 80g de fromage blanc', 10, 15, '170°C'),
 ('Smoothie de betteraves au chèvre frais', 2, 'Recette pour 2 personnes desc : 75g de betterave cuite, 17cl de lait écrémé, 45g de fromage de chèvre frais', 5, 30, 'aucune'), 
 ('Tiramisu traditionnel', 2, 'Recette pour 2 personnes, desc : 1 oeuf, 20gr de sucre de canne, 60gr de mascarpone, biscuits à la cuillère, 10cl de café, 10gr de cacao', 10, 120, '1 heure au refrigérateur'),
 ('Tiramisu allégé', 2, 'Recette pour 2 personnes, desc : Biscuits à la cuillère, 100g de fromage blanc 0%, 10gr de sucre de canne, 1 blanc d oeuf, 10cl de café, 10gr de cacao', 10, 120, '1 heure au refrigérateur'),

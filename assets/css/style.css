@@ -13,9 +13,10 @@ background: #3B3B40;
   padding: 0;
 }
 
-/* page About
+ /*page About
 ==================================================================
 ==================================================================
+*/
 
 .descrProjet {
 	padding: 1% 1% 1% 1%;
@@ -26,7 +27,7 @@ background: #3B3B40;
 	text-align: center;
 
 }
-*/
+
 
 
 /* modification préventive des UL et A 
@@ -293,8 +294,7 @@ html body .container-fluid.body-content {
 	text-align: center;
 	color: #fff;
 	padding: 1% 1% 1% 1%;
-	margin-left: 20%;
-	margin-right: 20%;
+
 	margin-top: 1%;
 	margin-bottom: 1%;
 	font-size: 1em;
@@ -560,6 +560,17 @@ html body .container-fluid.body-content {
 ==================================================================
 */
 
+.uppercase {
+	text-transform: uppercase;
+}
+
+.enCuisine {
+	display: block;
+    text-align: center;
+	font-size: 1.9em;
+	margin: 1% 1% 1% 1%;
+}
+
 .div-couleur0 {
     background:  	#3B3B40;
     border-radius: 1px;
@@ -578,6 +589,9 @@ html body .container-fluid.body-content {
 
 }
 
+.ingredientconsigne {
+	font-size: 3em;
+}
 .recetteConsigne {
     background:  	#3B3B40;
     border-radius: 1px;
@@ -603,11 +617,18 @@ html body .container-fluid.body-content {
 .numberToCookFor {
 	background: #3B3B40;
 	border-radius: 5px;
+	border-color: #ffff05;
+	font-size: 1.4em;
+	height: 50px;
+	width: 80px;
+	
 }
 
 .numberToCookFor2 {
 	background: #3B3B40;
 	transition: all 0.3s;
+	font-size: 1em;
+    font-weight: 600;
 }
 .numberToCookFor2:hover {
 	transition: all 0.3s;

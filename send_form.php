@@ -1,7 +1,7 @@
 
 <?php include ("entete.php");?>
 
-
+<!--
 
 <?php
 session_start();//on démarre la session
