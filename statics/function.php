@@ -55,7 +55,7 @@ function recipeAdapt() {  //function recette adaptée avec 2 variables $quantite
 	return $request->fetchall();
 }
 
-
+/*
 
 function recipeFor2b($recetteid, $convive) {  //function recette à adapter avec 2 variables $convive et $recetteid
 	global $db;
@@ -85,7 +85,7 @@ function recipeFor2b($recetteid, $convive) {  //function recette à adapter avec
 
 }
 
-
+*/
 
 function recipeFor2($recetteid) {  //function recette à adapter avec 1 variable et $idrecette
 	global $db;
@@ -191,6 +191,36 @@ function rappelDonnees() {
 
 
 
+
+
+
+function recipeFor2b($recetteid, $convive) {  //function recette à adapter avec 2 variables $convive et $recetteid
+	global $db;
+
+	$sql = $db->prepare(' 	SELECT  CEILING(quantite* ? *0.5) as newQuantite
+							, id_ingredient
+							, id_recette as recipeid
+							, nomrecette
+							, nomingredient
+							, description
+							, preparation
+							, cuisson
+							, temperature
+							, quantite
+							, type_mesure
+				FROM mesure 
+				JOIN ingredient ON ingredient.id = id_ingredient
+				JOIN recette ON recette.id = id_recette
+				WHERE recette.id =  ? ');
+
+
+
+
+	$sql->execute(array($convive, $recetteid));
+
+	return $sql->fetchall();
+
+}
 
 
 
